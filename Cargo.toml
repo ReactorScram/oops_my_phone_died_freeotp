@@ -6,6 +6,7 @@ edition = "2018"
 license = "AGPL-3.0"
 
 description = "A CLI program to print TOTP codes from freeotp-backup.json"
+repository = "https://github.com/ReactorScram/oops_my_phone_died_freeotp"
 readme = "README.md"
 keywords = ["freeotp", "totp"]
 categories = ["command-line-utilities"]
