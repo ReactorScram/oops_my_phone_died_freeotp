@@ -18,18 +18,18 @@ struct FreeOtpBackup {
 
 #[derive (Deserialize)]
 struct FreeOtpToken {
-	_algo: String,
-	_counter: u64,
-	_digits: u64,
+	algo: String,
+	counter: u64,
+	digits: u64,
 	
 	#[serde (rename = "issuerExt")]
-	_issuer_ext: String,
-	_label: String,
-	_period: u64,
+	issuer_ext: String,
+	label: String,
+	period: u64,
 	secret: Vec <i8>,
 	
 	#[serde (rename = "type")]
-	_password_type: String,
+	password_type: String,
 }
 
 fn main () {
